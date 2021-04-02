@@ -7,6 +7,8 @@ import Testimonial from '../components/sections/Testimonial';
 import Cta from '../components/sections/Cta';
 import VerticalTimeLines from '../components/sections/VerticalTimeLines'
 
+import SkillBars from '../components/sections/SkillBar'
+
 const Home = () => {
 
   return (
@@ -14,7 +16,8 @@ const Home = () => {
       <Hero className="illustration-section-01" />
       <VerticalTimeLines />
       <FeaturesSplit invertMobile topDivider imageFill className="illustration-section-02" />
-      <FeaturesTiles className="mt-32 pt-32"/>
+      <SkillBars />
+      <FeaturesTiles />
       {/* <Testimonial topDivider /> */}
       <Cta split />
     </>

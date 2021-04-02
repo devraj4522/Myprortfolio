@@ -106,7 +106,7 @@ const SkillBars = ({
               Programming Languages and Frameworks I know.
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
-                <SkillBar skills={SKILLS} animationDelay={1000} colors={colors}/>
+                <SkillBar skills={SKILLS} animationDuration={2000} animationDelay={1000} colors={colors}/>
               </div>
             </div>
           </div>
